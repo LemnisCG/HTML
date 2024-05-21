@@ -46,15 +46,115 @@ Tienes:
 * ``<body></body>`` — el elemento ``<body>``. Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
 
 ### Sintaxis de HTML
-* `<p>Esto es un parrafo</p>`
-* `<h1>Esto es un titulo</h1>`
-* `<h2>Esto es un subtitulo</h2>`
-* `<h3>Esto es un subtitulo de menor jerarquía</h3>`
-* `<h4>Esto es un subtitulo de menor jerarquía</h4>`
-* `<h5>Esto es un subtitulo de menor jerarquía</h5>`
-* `<h6>Esto es un subtitulo de menor jerarquía</h6>`
+````<!DOCTYPE>: Define el tipo de documento.
+<html>: Contenedor raíz de un documento HTML.
+<head>: Contiene meta-información sobre el documento.
+<title>: Define el título del documento en la barra del navegador.
+<meta>: Define metadatos sobre el documento.
+<link>: Define la relación entre el documento actual y un recurso externo.
+<style>: Define estilos CSS internos.
+<script>: Define scripts de cliente.
+<base>: Especifica la URL base para todas las URL relativas en el documento.
+Sección del Cuerpo
+<body>: Contiene el contenido del documento.
+Encabezados
+<h1> a <h6>: Define encabezados, siendo <h1> el de mayor importancia.
+Texto y Formato
+<p>: Define un párrafo.
+<br>: Inserta un salto de línea.
+<hr>: Inserta una línea horizontal.
+<b>: Define texto en negrita.
+<strong>: Define texto importante (negrita).
+<i>: Define texto en cursiva.
+<em>: Define texto enfatizado (cursiva).
+<small>: Define texto pequeño.
+<mark>: Define texto resaltado.
+<del>: Define texto tachado.
+<ins>: Define texto subrayado.
+<sub>: Define texto como subíndice.
+<sup>: Define texto como superíndice.
+<blockquote>: Define una cita en bloque.
+<q>: Define una cita en línea.
+<code>: Define un fragmento de código.
+<pre>: Define texto preformateado.
+<address>: Define la información de contacto del autor/dueño del documento.
+<cite>: Define el título de una obra.
+Listas
+<ul>: Define una lista desordenada.
+<ol>: Define una lista ordenada.
+<li>: Define un elemento de lista.
+<dl>: Define una lista de definición.
+<dt>: Define un término en una lista de definición.
+<dd>: Define una descripción de un término en una lista de definición.
+Enlaces
+<a>: Define un hipervínculo.
+Imágenes
+<img>: Define una imagen.
+Multimedia
+<audio>: Define contenido de sonido.
+<video>: Define contenido de video.
+<source>: Define múltiples recursos para elementos multimedia.
+<track>: Define subtítulos para contenido multimedia.
+<embed>: Define un contenedor para una aplicación externa (plug-in).
+<object>: Define un contenedor para un recurso externo.
+<param>: Define parámetros para un objeto.
+Integración de Contenido
+<iframe>: Define un marco en línea.
+Formularios
+<form>: Define un formulario HTML.
+<input>: Define un control de entrada.
+<textarea>: Define un área de texto de entrada.
+<button>: Define un botón clickeable.
+<select>: Define un menú desplegable.
+<option>: Define una opción en un menú desplegable.
+<optgroup>: Define un grupo de opciones en un menú desplegable.
+<label>: Define una etiqueta para un control de entrada.
+<fieldset>: Agrupa elementos relacionados en un formulario.
+<legend>: Define una leyenda para un elemento <fieldset>.
+<datalist>: Define una lista de opciones predefinidas para controles de entrada.
+<output>: Define el resultado de un cálculo.
+Tablas
+<table>: Define una tabla.
+<caption>: Define un título para una tabla.
+<th>: Define una celda de encabezado en una tabla.
+<tr>: Define una fila en una tabla.
+<td>: Define una celda en una tabla.
+<thead>: Agrupa el contenido del encabezado en una tabla.
+<tbody>: Agrupa el contenido del cuerpo en una tabla.
+<tfoot>: Agrupa el contenido del pie en una tabla.
+<col>: Especifica propiedades de columna para cada columna dentro de un <colgroup>.
+<colgroup>: Especifica un grupo de una o más columnas en una tabla.
+Estilo y Semántica
+<style>: Define estilos CSS internos.
+<div>: Define una sección en un documento (bloque).
+<span>: Define una sección en línea (en línea).
+Etiquetas de Programación
+<script>: Define un script de cliente.
+<noscript>: Define un contenido alternativo para usuarios que tienen deshabilitado el soporte de scripts.
+Etiquetas de Metadatos
+<meta>: Define metadatos sobre un documento HTML.
+Contenedores de Agrupación
+<section>: Define una sección en un documento.
+<nav>: Define un conjunto de enlaces de navegación.
+<article>: Define un contenido independiente y aislado.
+<aside>: Define contenido lateral (como una barra lateral).
+<header>: Define el encabezado de una sección o página.
+<footer>: Define el pie de página de una sección o página.
+<main>: Define el contenido principal del documento.
+<figure>: Define contenido autónomo, como una imagen con su leyenda.
+<figcaption>: Define una leyenda para el elemento <figure>.
+Elementos de Enlace
+<a>: Define un hipervínculo.
+<link>: Define la relación entre el documento actual y un recurso externo.
+Contenido Interactivo
+<details>: Define detalles adicionales que el usuario puede ver o esconder.
+<summary>: Define un encabezado visible para el elemento <details>.
+<dialog>: Define un diálogo o una ventana.
+Contenido Web Avanzado
+<canvas>: Define un área de gráficos para dibujar gráficos a través de scripting (usualmente JavaScript).
+<svg>: Define gráficos vectoriales escalables.
+Otros
+<template>: Define una plantilla reutilizable.
+<slot>: Define un espacio donde se puede insertar contenido DOM en una plantilla.
 
-
-
-
-
+````
