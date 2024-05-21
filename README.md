@@ -45,6 +45,15 @@ Tienes:
 * ``<title></title>`` — el elemento ``<title> ``establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
 * ``<body></body>`` — el elemento ``<body>``. Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
 
+### Sintaxis de HTML
+* `<p>Esto es un parrafo</p>`
+* `<h1>Esto es un titulo</h1>`
+* `<h2>Esto es un subtitulo</h2>`
+* `<h3>Esto es un subtitulo de menor jerarquía</h3>`
+* `<h4>Esto es un subtitulo de menor jerarquía</h4>`
+* `<h5>Esto es un subtitulo de menor jerarquía</h5>`
+* `<h6>Esto es un subtitulo de menor jerarquía</h6>`
+
 
 
 
