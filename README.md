@@ -158,3 +158,213 @@ Otros
 <slot>: Define un espacio donde se puede insertar contenido DOM en una plantilla.
 
 ````
+
+### Como se veria todo este codigo en un Documento HTML
+
+```<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Completo de HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        header, footer { background-color: #f4f4f4; padding: 20px; text-align: center; }
+        nav { margin: 20px; }
+        nav a { margin: 0 10px; }
+        section, article, aside { margin: 20px 0; }
+        figure { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ejemplo Completo de HTML</h1>
+    </header>
+
+    <nav>
+        <a href="#contenido-principal">Inicio</a>
+        <a href="#articulo">Artículo</a>
+        <a href="#formulario">Formulario</a>
+    </nav>
+
+    <main id="contenido-principal">
+        <section>
+            <h2>Sección Principal</h2>
+            <p>Este es un párrafo de ejemplo. <strong>Texto en negrita</strong>, <em>texto en cursiva</em>, <mark>texto resaltado</mark>, <small>texto pequeño</small>, <del>texto tachado</del>, <ins>texto subrayado</ins>.</p>
+            <blockquote>
+                Este es un bloque de cita. <q>Esta es una cita en línea.</q>
+            </blockquote>
+            <pre>
+                Código preformateado:
+                <code>
+function ejemplo() {
+    console.log("Hola Mundo");
+}
+                </code>
+            </pre>
+            <address>
+                Contacto: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a>
+            </address>
+            <p>Referencias: <cite>Nombre del Libro</cite></p>
+        </section>
+
+        <section>
+            <h2>Listas</h2>
+            <ul>
+                <li>Elemento de lista desordenada 1</li>
+                <li>Elemento de lista desordenada 2</li>
+                <li>Elemento de lista desordenada 3</li>
+            </ul>
+            <ol>
+                <li>Elemento de lista ordenada 1</li>
+                <li>Elemento de lista ordenada 2</li>
+                <li>Elemento de lista ordenada 3</li>
+            </ol>
+            <dl>
+                <dt>Término 1</dt>
+                <dd>Descripción del término 1</dd>
+                <dt>Término 2</dt>
+                <dd>Descripción del término 2</dd>
+            </dl>
+        </section>
+
+        <article id="articulo">
+            <h2>Artículo</h2>
+            <p>Este es un artículo de ejemplo.</p>
+        </article>
+
+        <aside>
+            <h2>Barra Lateral</h2>
+            <p>Contenido adicional como una barra lateral.</p>
+        </aside>
+
+        <figure>
+            <img src="imagen.jpg" alt="Descripción de la imagen">
+            <figcaption>Este es un pie de foto.</figcaption>
+        </figure>
+
+        <section>
+            <h2>Tabla</h2>
+            <table>
+                <caption>Ejemplo de Tabla</caption>
+                <thead>
+                    <tr>
+                        <th>Encabezado 1</th>
+                        <th>Encabezado 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Pie 1</td>
+                        <td>Pie 2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario</h2>
+            <form action="/ruta/del/formulario" method="post">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                    
+                    <label for="opciones">Opciones:</label>
+                    <select id="opciones" name="opciones">
+                        <optgroup label="Grupo 1">
+                            <option value="1">Opción 1</option>
+                            <option value="2">Opción 2</option>
+                        </optgroup>
+                        <optgroup label="Grupo 2">
+                            <option value="3">Opción 3</option>
+                            <option value="4">Opción 4</option>
+                        </optgroup>
+                    </select>
+                    
+                    <label>
+                        <input type="checkbox" name="suscribir" checked> Suscribirse al boletín
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="sexo" value="masculino"> Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo" value="femenino"> Femenino
+                    </label>
+                    
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </section>
+        
+        <section>
+            <h2>Contenido Multimedia</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </section>
+        
+        <section>
+            <h2>Contenido Interactivo</h2>
+            <details>
+                <summary>Más información</summary>
+                <p>Este es un detalle adicional que se puede ver u ocultar.</p>
+            </details>
+            <dialog open>
+                <p>Este es un cuadro de diálogo.</p>
+                <button onclick="this.parentElement.close()">Cerrar</button>
+            </dialog>
+        </section>
+
+        <section>
+            <h2>Contenido Gráfico</h2>
+            <canvas id="miCanvas" width="200" height="200" style="border:1px solid #000000;"></canvas>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+            </svg>
+        </section>
+
+        <template id="miTemplate">
+            <p>Este es un contenido de plantilla.</p>
+        </template>
+
+        <slot name="miSlot">Contenido por defecto</slot>
+    </main>
+
+    <footer>
+        <p>Pie de página del documento</p>
+    </footer>
+
+    <script>
+        function ejemplo() {
+            console.log("Hola Mundo");
+        }
+    </script>
+</body>
+</html>```
