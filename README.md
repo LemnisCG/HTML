@@ -161,8 +161,8 @@ Otros
 
 ### Como se veria todo este codigo en un Documento HTML
 
-```<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+```<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
